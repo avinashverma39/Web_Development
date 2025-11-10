@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Element</title>
+</head>
+
+<body>
+    <form action="server/n">
+        <div>
+            <!-- Submit button -->
+            <input type="submit" placeholdar="submit" />
+            <input type="submit" value="Click Me" />
+        </div>
+        <br />
+        <div>
+            <!-- check Box button -->
+            Do you 18+ ?
+            <input type="checkbox" name="age" id="age" checked />
+            <label for="age">I am 18+ </label>
+        </div>
+
+        <br />
+        <!-- Radio button -->
+        <input type="radio" name="frooti" id="apple" value="apple" />
+        <label for="apple">apple</label>
+        <br />
+        <div>
+            <!-- Drop Down -->
+            choise your profession
+            <select name="profession" id="profession">
+                <option value="student">Student</option>
+                <option value="dev">Developer</option>
+            </select>
+        </div>
+        <br />
+        <div>
+            <!-- Range Input -->
+            <label for="volume">Volume</label>
+            <input type="range" min="0" max="100" name="vol" />
+            <button>Submit</button>
+        </div>
+        <br />
+        <div>
+            <!-- Text Area -->
+            <label for="feedback">Please provide your valuable
+                feedback:</label>
+            <textarea id="feedback" placeholder="feedback"> </textarea>
+            <button>submit</button>
+        </div>
+    </form>
+</body>
+
+</html>

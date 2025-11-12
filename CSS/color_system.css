@@ -1,0 +1,30 @@
+/* 1). Named color
+a). red 
+b). blue etc */
+p {
+    color: aqua;
+    background-color: black;
+}
+
+b {
+    color: cadetblue;
+    background-color: burlywood;
+}
+
+/*rgb color 
+color = rgb(0,0,0)*/
+button {
+    color: rgb(257, 0, 0);
+    background-color: black;
+}
+
+input {
+    color: rgb(0, 0, 257);
+    background-color: black;
+}
+/* hexadecimal or hex
+color: #ffffff */
+h1{
+    color: #00ffff;
+    background-color:gray;
+}

@@ -20,7 +20,7 @@ ul{
 #myid {
     color: aquamarine;
 }
-
+/*INDVISUAL ELEMENT SELECTOR  */
 #login {
     color: rgb(243, 5, 207);
     background-color: rgb(0, 0, 0);
@@ -30,7 +30,7 @@ ul{
     color: rgb(220, 39, 190);
     background-color: black;
 }
-
+/*.CLASS SELECTOR  */
 .upvote {
     color: azure;
     background-color: green;

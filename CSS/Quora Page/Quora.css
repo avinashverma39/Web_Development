@@ -7,10 +7,11 @@ h3 {
     color: rgb(228, 23, 23);
 }
 
-ul{
+ul {
     color: rgb(0, 0, 0);
- 
+
 }
+
 /* UNIVERSAL SELECTOR*/
 * {
     font-family: 'Courier New', Courier, monospace;
@@ -35,7 +36,12 @@ ul{
     color: azure;
     background-color: green;
 }
-input{
+
+input {
     color: rgb(197, 237, 0);
     background-color: rgb(232, 187, 230);
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }

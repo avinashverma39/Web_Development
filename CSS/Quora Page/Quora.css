@@ -1,0 +1,41 @@
+/* ELEMENT SELECTOR */
+h1 {
+    color: rgb(228, 23, 23);
+}
+
+h3 {
+    color: rgb(228, 23, 23);
+}
+
+ul{
+    color: rgb(0, 0, 0);
+ 
+}
+/* UNIVERSAL SELECTOR*/
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ID SELECTOR */
+#myid {
+    color: aquamarine;
+}
+
+#login {
+    color: rgb(243, 5, 207);
+    background-color: rgb(0, 0, 0);
+}
+
+#signup {
+    color: rgb(220, 39, 190);
+    background-color: black;
+}
+
+.upvote {
+    color: azure;
+    background-color: green;
+}
+input{
+    color: rgb(197, 237, 0);
+    background-color: rgb(232, 187, 230);
+}

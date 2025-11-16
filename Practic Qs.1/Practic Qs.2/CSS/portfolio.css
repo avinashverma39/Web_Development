@@ -16,18 +16,21 @@ section div h2 {
     color: rgb(20, 160, 241);
     text-align: center;
     background-color: black;
-    font-family:monospace;
+    font-family: monospace;
 }
-li{
-    color:blueviolet;
+
+li {
+    color: blueviolet;
     text-align: left;
 }
 
-h2{
-    color: brown;
+h2 {
+    color: rgb(246, 8, 8);
     text-align: center;
+    background-color: black;
 }
 
-.gmail{
-    color: deeppink;
+h2+li {
+    color: black;
+    -webkit-text-stroke-width: bold;
 }

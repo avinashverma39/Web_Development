@@ -1,131 +1,122 @@
 /* ELEMENT SELECTOR */
 h1 {
-    color: rgb(228, 23, 23);
+  color: rgb(228, 23, 23);
 }
 
 /* ADJACENT SIBLING COMBINATOR */
-div+h3 {
-    color: rgb(228, 23, 23);
+div + h3 {
+  color: rgb(228, 23, 23);
 }
 
 ul {
-    color: rgb(0, 0, 0);
-
+  color: rgb(0, 0, 0);
 }
 
 /* UNIVERSAL SELECTOR*/
 * {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* ID SELECTOR */
 #myid {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 /*INDVISUAL ELEMENT SELECTOR  */
 #login {
-    color: rgb(243, 5, 207);
-    background-color: rgb(0, 0, 0);
+  color: rgb(243, 5, 207);
+  background-color: rgb(0, 0, 0);
 }
 
 #signup {
-    color: rgb(220, 39, 190);
-    background-color: black;
+  color: rgb(220, 39, 190);
+  background-color: black;
 }
 
 /*.CLASS SELECTOR  */
 .upvote {
-    color: azure;
-    background-color: rgb(232, 60, 8);
+  color: azure;
+  background-color: rgb(232, 60, 8);
 }
 
 input {
-    color: rgb(197, 237, 0);
-    background-color: rgb(232, 187, 230);
+  color: rgb(197, 237, 0);
+  background-color: rgb(232, 187, 230);
 }
 
 /* DESCENDANR SELECTOR */
 div p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 a {
-    text-decoration: double;
-    color: rgb(11, 0, 218);
-    font-family: cursive;
+  text-decoration: double;
+  color: rgb(11, 0, 218);
+  font-family: cursive;
 }
 
 /* SIBLING COMBINATOR */
-.upvote+button {
-    color: rgb(229, 255, 0);
-    background-color: black;
+.upvote + button {
+  color: rgb(229, 255, 0);
+  background-color: black;
 }
 
 /* DESCENDANR SELECTOR */
 .post a {
-    color: aqua;
-    background-color: rgb(0, 128, 255)
+  color: aqua;
+  background-color: rgb(0, 128, 255);
 }
 
 nav ul li a {
-    color: rgba(0, 0, 0, 0.497);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgba(0, 0, 0, 0.497);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 nav ul li {
-    color: rgb(0, 128, 255);
+  color: rgb(0, 128, 255);
 }
 
 .contact {
-    color: rgb(0, 0, 0);
-<<<<<<< Updated upstream
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+    sans-serif;
 }
 
 font-family {
-    font-family: 'Lucida Sans',
-        'Lucida Sans Regular',
-        'Lucida Grande',
-        'Lucida Sans Unicode',
-        Geneva,
-        Verdana,
-        sans-serif;
-=======
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
->>>>>>> Stashed changes
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 input[type="text"] {
-    color: rgb(255, 20, 208);
-
+  color: rgb(255, 20, 208);
 }
 
 input[type="password"] {
-    color: deeppink;
-
+  color: deeppink;
 }
 
 #myid p {
-
-    color: rgb(38, 234, 35);
+  color: rgb(38, 234, 35);
 }
 
 button:hover {
-    background-color: green;
-    color: rgb(254, 4, 4);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: green;
+  color: rgb(254, 4, 4);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 button:active {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 #signup:hover {
-    color: aqua;
-
+  color: aqua;
 }
 
 #login:hover {
-    color: aqua;
+  color: aqua;
 }

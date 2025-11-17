@@ -17,6 +17,7 @@ section div h2 {
     color: rgb(20, 160, 241);
     text-align: center;
     background-color: black;
+  
     font-family: monospace;
 }
 
@@ -61,5 +62,5 @@ div h1:hover {
 }
 
 * {
-    background-color: #afb2b7;
+    background-color: #eff7ff;
 }

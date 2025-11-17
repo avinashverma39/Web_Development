@@ -132,3 +132,7 @@ h1::first-letter {
   color: rgba(7, 21, 24, 0.695);
   font-family: fantasy;
 }
+
+/* SELECTOR SPECIFICITY */
+
+/*!IMPORTANT > INLINE > ID > CLASS > ELEMENT > */

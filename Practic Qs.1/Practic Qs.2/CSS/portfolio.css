@@ -21,8 +21,9 @@ section div h2 {
 }
 
 li {
-    color: blueviolet;
+    color: #003459;
     text-align: left;
+
 }
 
 h2 {
@@ -57,6 +58,8 @@ div h1::first-letter {
 div h1:hover {
     color: rgb(0, 245, 0);
     font-family: Arial, Helvetica, sans-serif;
+}
 
-
+* {
+    background-color: #afb2b7;
 }

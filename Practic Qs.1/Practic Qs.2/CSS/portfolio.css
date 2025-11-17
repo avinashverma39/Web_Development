@@ -2,7 +2,7 @@
 div h1 {
     text-decoration: rgb(233, 174, 57) double underline;
     text-align: center;
-    color: rgb(228, 23, 23);
+    color: #8FABD4;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -40,5 +40,22 @@ h2+li {
     margin: auto;
     width: 200px;
     height: 300px;
+
+}
+
+div h1::first-letter {
+    color: black;
+
+}
+
+div h1::first-letter {
+    font-family: cursive;
+
+}
+
+div h1:hover {
+    color: rgb(228, 23, 23);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:unset;
 
 }

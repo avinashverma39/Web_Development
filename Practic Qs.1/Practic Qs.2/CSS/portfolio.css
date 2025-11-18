@@ -40,7 +40,7 @@ li {
     color: #003459;
     text-align: left;
     height: 30px;
-   
+
 
 }
 
@@ -60,11 +60,11 @@ h2+li {
 
 .pic {
     display: block;
-    margin: auto;
+    margin: 5px;
     width: 200px;
     height: 300px;
-    border-radius: 50px;
-
+    border-radius: 20px;
+    
 }
 
 div h1::first-letter {
@@ -86,12 +86,13 @@ div h1:hover {
     background-color: #eff7ff;
 }
 
-.box{
+.box {
     border: 5px solid blueviolet;
     width: 300px;
-    border-radius:22px;
-  
+    border-radius: 22px;
+
 }
-.Contacts{
+
+.Contacts {
     border: 5px solid;
 }

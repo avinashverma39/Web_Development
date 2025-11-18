@@ -23,10 +23,9 @@ h1+p {
     height: 22px;
     padding: 2px;
     margin: 20px;
-
     border:2px solid ;
-   
     border-radius: 50px;
+
 }
 
 section div h2 {
@@ -47,6 +46,8 @@ h2 {
     color: rgb(246, 8, 8);
     text-align: center;
     background-color: black;
+    height: 25px;
+    border: 5px solid ;
 }
 
 h2+li {

@@ -31,15 +31,20 @@ h1+p {
 section div h2 {
     color: rgb(20, 160, 241);
     text-align: center;
-    background-color: black;
-
+    background-color: rgb(70, 22, 22);
+     padding: 5px;
+     margin-right: 150px;
     font-family: monospace;
 }
 
 li {
     color: #bcdd13;
-    text-align: left;
+    text-align: center;
     height: 30px;
+    padding: 4px 5px 6px;
+    margin: 16px; 
+    
+    
 
 
 }
@@ -51,6 +56,8 @@ h2 {
     height: 25px;
     border: 4px solid;
     border-radius: 30px;
+    padding: 5px;
+    margin-right: 150px;
 }
 
 h2+li {
@@ -91,7 +98,7 @@ div h1:hover {
 }
 
 .box {
-    border: 5px solid blueviolet;
+    border: 5px solid rgba(79, 34, 121, 0.771);
     width: 300px;
     border-radius: 22px;
 
@@ -99,4 +106,8 @@ div h1:hover {
 
 .Contacts {
     border: 5px solid;
+    
+}
+h3{
+    color: red;
 }

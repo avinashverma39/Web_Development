@@ -32,7 +32,7 @@ h1+p {
 section div h2 {
     color: rgb(213, 220, 224);
     text-align: center;
-    background-color: rgb(30, 5, 5);
+    background-color: rgb(31, 6, 6);
     padding: 5px;
     margin-right: 150px;
     font-family: monospace;
@@ -43,7 +43,8 @@ li {
     text-align: left;
     height: 30px;
     padding: 4px 5px 6px;
-    margin: 16px;
+    margin: 10px;
+
 }
 
 h2 {
@@ -93,6 +94,7 @@ div h1:hover {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     transition-duration: 1s;
+    margin: 2px;
 
 }
 
@@ -124,8 +126,9 @@ footer h2 {
 
 section div h2:hover {
     color: chartreuse;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(95, 28, 86);
     transition-duration: 2s;
+    margin: 20px;
 }
 
 .pic:hover {
@@ -143,3 +146,15 @@ section div h2:hover {
     /* transform: skew(4deg); */
 }
  
+li:hover{
+    margin: 10px;
+    color: rgb(245, 245, 245);
+   
+    
+}
+
+.Contacts :hover{
+    color: ;
+    background-color: rgb(116, 35, 93);
+
+}

@@ -1,0 +1,8 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    margin: 10px;
+    position: static;
+}

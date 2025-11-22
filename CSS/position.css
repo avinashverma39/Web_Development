@@ -1,4 +1,4 @@
-.hste1{
+.hste1 {
     width: 100px;
     height: 100px;
     background-color: green;
@@ -11,7 +11,7 @@
 }
 
 /* without position */
-.hste2{   
+.hste2 {
     width: 100px;
     height: 100px;
     background-color: green;
@@ -19,19 +19,42 @@
     margin: 10px;
 
 }
+
 /* with position  */
 
-.hste3{   
+.hste3 {
     width: 100px;
     height: 100px;
     background-color: green;
     display: inline-block;
     margin: 10px;
-    position: relative ;
+    position: relative;
     left: 200px;
     right: 100px;
-    top:100px;
+    top: 100px;
 
 }
 
 /* use absolute position */
+
+.hste4 {
+    color: yellow;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 10px;
+    display : inline-block
+}
+.hste5 {
+    color: yellow;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+    margin: 10px;
+
+    position: absolute;
+    
+    top: 100px;
+    left: 70px;
+}

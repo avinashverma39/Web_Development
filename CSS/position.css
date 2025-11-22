@@ -35,7 +35,7 @@
 
 }
 
-/* use absolute position */
+
 
 .hste4 {
     color: yellow;
@@ -43,8 +43,11 @@
     height: 100px;
     background-color: yellow;
     margin: 10px;
-    display : inline-block
+    display: inline-block
 }
+
+/* use absolute position */
+
 .hste5 {
     color: yellow;
     width: 100px;
@@ -58,26 +61,26 @@
 }
 
 
-.hste6{
+.hste6 {
     width: 100px;
     height: 100px;
     background-color: aqua;
-    display:inline-block;
-    margin:10px;
-   
-    
+    display: inline-block;
+    margin: 10px;
+
+
 }
 
 /* use in fixed position */
-.hste7{
+.hste7 {
     width: 100px;
     height: 100px;
     background-color: aqua;
-    display:inline-block;
+    display: inline-block;
     margin: 10px;
-     
-     position: fixed;
-     top:100px;
-     left:300px;
-    
+
+    position: fixed;
+    top: 100px;
+    left: 300px;
+
 }

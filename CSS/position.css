@@ -56,3 +56,28 @@
     top: 100px;
     left: 70px;
 }
+
+
+.hste6{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    display:inline-block;
+    margin:10px;
+   
+    
+}
+
+
+.hste7{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    display:inline-block;
+    margin: 10px;
+     
+     position: fixed;
+     top:100px;
+     left:300px;
+    
+}

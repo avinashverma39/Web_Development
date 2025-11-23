@@ -150,6 +150,8 @@ ul {
     transform: translate(10px);
     box-shadow: 3px 3px 10px rgb(11, 200, 86);
     /* transform: skew(4deg); */
+
+    /* position element use */
     position: relative;
     left: 20px;
 }

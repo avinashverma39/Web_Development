@@ -69,13 +69,13 @@ h2+li {
     margin: 9;
     width: 200px;
     height: 200px;
-    border-radius: 40px;
+    border-radius: 20px 50px 20px 50px ;
     display: inline-block;
     padding: 10px;
     margin: auto;
     align-items: center;
     transform: translate(30px);
-    box-shadow: 3px 3px 10px yellow;
+    box-shadow: 3px 3px 10px rgb(219, 154, 25);
     opacity: 80%;
 
 }
@@ -142,7 +142,7 @@ ul {
     margin: 5px;
     width: 200px;
     height: 200px;
-    border-radius: 70px 25px 70px 25px;
+    border-radius: 60px 25px 60px 25px;
     display: inline-block;
     padding: 10px;
     margin: auto;

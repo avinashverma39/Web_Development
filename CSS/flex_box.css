@@ -9,6 +9,7 @@ h1{
     margin: 10px auto;
     border: 2px solid black;
     display: flex;
+    flex-direction: column;
 }
 
 .container div{

@@ -10,13 +10,18 @@ h1 {
     border: 2px solid black;
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-start; */
+    justify-content: flex-start;
     /* justify-content: flex-end; */
     /* justify-content: center; */
-    align-content: flex-end;
+    align-content: flex-start;
+    align-content: space-around;
+
 
 }
 
+#green{
+    align-self: flex-start;
+}
 .container div {
     height: 100px;
     width: 50px;

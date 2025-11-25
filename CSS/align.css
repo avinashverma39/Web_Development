@@ -3,7 +3,7 @@ h1 {
 }
 
 .container {
-    height: 300px;
+    height: 500px;
     width: 80%;
     background-color: rgb(83, 186, 233);
     margin: 10px auto;
@@ -27,6 +27,7 @@ h1 {
     color: ghostwhite;
     font-size: 1.2em;
 }
+
 
 
 * {

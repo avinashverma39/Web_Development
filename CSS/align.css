@@ -29,13 +29,15 @@ h1 {
     align-self: center;
     /* flex-basis: 100px; */
     /* flex-grow: 2; */
-    flex-shrink: 2;
+    /* flex-shrink: 2; */
+    max-width: 200px;
 }
 
 #blue{
     /* flex-basis: 50px; */
-    flex-grow: 2;
-    flex-shrink: 3;
+    /* flex-grow: 2; */
+    /* flex-shrink: 3; */
+    /* min-width: 300px; */
 
 }
 

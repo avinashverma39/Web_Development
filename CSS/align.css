@@ -10,11 +10,14 @@ h1 {
     border: 2px solid black;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     justify-content: flex-end;
     /* justify-content: center; */ 
     /* align-content: flex-start; */
     align-content: space-around;
+    flex-wrap: wrap;
+     /* align-content: baseline; */
+
 
 
 }
@@ -22,7 +25,7 @@ h1 {
 
 .container div {
     height: 100px;
-    width: 50px;
+    width: 300px;
     text-align: center;
     color: ghostwhite;
     font-size: 1.2em;

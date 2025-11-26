@@ -26,7 +26,8 @@ h1 {
 
 #org{
     text-align: center;
-    align-self: flex-end;
+    align-self: center;
+    flex-basis: 100px;
 }
 
 
@@ -35,7 +36,7 @@ h1 {
     width: 300px;
     text-align: center;
     color: ghostwhite;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
 }
 
 

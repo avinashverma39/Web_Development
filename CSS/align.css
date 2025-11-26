@@ -27,9 +27,17 @@ h1 {
 #org{
     text-align: center;
     align-self: center;
-    flex-basis: 100px;
+    /* flex-basis: 100px; */
+    /* flex-grow: 2; */
+    flex-shrink: 2;
 }
 
+#blue{
+    /* flex-basis: 50px; */
+    flex-grow: 2;
+    flex-shrink: 3;
+
+}
 
 .container div {
     height: 100px;

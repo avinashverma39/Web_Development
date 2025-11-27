@@ -5,3 +5,7 @@
     display:grid;
     grid-template-rows: auto;
 }
+
+.item{
+    width: 100px;
+}

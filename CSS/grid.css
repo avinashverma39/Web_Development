@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: 120px 120px 120px 120px 120px;
     /* grid-template-rows: 60px 60px 60px 60px 60px; */
-    align-content: flex-start;
+    /* align-content: flex-start; */
    
 }
 

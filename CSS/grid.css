@@ -21,6 +21,7 @@
 }
 
 .one{
+    justify-items: center;
     /* grid-column-start: 3;  */
      
      grid-template-rows: repeat(2,1fr);

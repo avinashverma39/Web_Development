@@ -1,15 +1,22 @@
 div{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 100px;
     background-color: greenyellow;
-    animation: bgcolor;
+/* initiliziton animation in object */
+    /* animation: bgcolor;
     animation-duration: 2s;
     animation-iteration-count: 3;
     animation-direction: reverse;
+    animation-delay: 4s; */
+    /* USE SHORT HAND */
+
+    animation:bgcolor 2s linear 3s infinite reverse
+
 }
 
 @keyframes bgcolor{
    from {
       background-color: aqua;
+      width: 30px;
     }
 }

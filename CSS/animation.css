@@ -2,4 +2,14 @@ div{
     width: 300px;
     height: 200px;
     background-color: greenyellow;
+    animation: bgcolor;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+}
+
+@keyframes bgcolor{
+   from {
+      background-color: aqua;
+    }
 }

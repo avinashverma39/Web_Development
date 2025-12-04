@@ -7,23 +7,27 @@ h3 {
 }
 
 .card {
-    width: 300px;
+    width: 250px;
     /* height: 500px; */
     border: 2px solid black;
-    border-radius: 25px;
+    border-radius: 29px;
     padding:10px;
     margin:10px;
 
 }
 
 .card2 {
-    width: 300px;
+    width: 250px;
     height: 150px;
-    border-radius: 20px;
+    border-radius: 25px;
     align-items: center;
 }
 
 #pets{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif
 }

@@ -6,23 +6,50 @@
     margin: 20px;
 }
 
-h1{
+h1 {
     text-align: center;
     color: aqua;
 
 }
-h1::first-letter{
+
+h1::first-letter {
     text-align: center;
     color: rgb(255, 0, 144);
 
 }
 
-*{
-    background-color:#71708F ;
+* {
+    background-color: #71708F;
 }
-.nn{
+
+.nn {
     color: rgb(212, 255, 0);
+    /* color: inherit; */
 }
-p{
+
+p {
     color: rgb(255, 255, 255);
+    animation: wel 4s linear 3s normal
+}
+
+@keyframes wel {
+    from {
+        width: 200px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 4px;
+        padding: 2px;
+        margin: 2px;
+    }
+
+    to {
+        width: 900px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 6px;
+        /* text-align: center; */
+        padding: 2px;
+        justify-content: space-evenly;
+        margin: 2px;
+    }
+
+
 }

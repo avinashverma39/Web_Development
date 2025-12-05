@@ -24,14 +24,14 @@ Tag	Definition
 <p>	Paragraph of text
 <strong>	Bold text with importance
 <em>	Italic or emphasized text
-<u>	Underlined text
-<mark>	Highlighted text
-<small>	Smaller text
-<del>	Deleted or crossed-out text
-<sub>	Subscript text
-<sup>	Superscript text
-<br>	Line break
-<hr>	Horizontal line or divider
+<u> 	Underlined text
+<mark Highlighted text
+<small 	Smaller text
+<del 	Deleted or crossed-out text
+<sub 	Subscript text
+<sup 	Superscript text
+<br  	Line break
+<hr  	Horizontal line or divider
 
 
 

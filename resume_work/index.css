@@ -72,6 +72,7 @@ h2 {
 .page{
     /* height: 20px;
     width: 10px; */
+    /* text-align: center; */
     background-color: #7E8180;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -82,13 +83,14 @@ h2 {
 }
 button{
     height: 40px;
-    width: 60px;
+    width: 80px;
     padding: 5px;
     margin: 2px;
     border-radius: 12px;
     border: 1px solid rgb(96, 106, 47);
-    border-radius: 10px 5px 10px 5px;
+    border-radius: 20px 15px 20px 15px;
     background-color: #579681;
+    box-shadow: 2px 2px 10px rgb(219, 83, 53);
 }
 .work1 {
     font-size: 20px;

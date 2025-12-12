@@ -75,11 +75,21 @@ h2 {
     background-color: #7E8180;
     margin-top: 5px;
     margin-bottom: 5px;
-    border: 2px solid #d72525;
-    border-radius: 3px;
+    /* border: 2px solid #d72525; */
+    border-radius: 30px;
     text-decoration: none;
+    color: rgb(201, 207, 89);
 }
-
+button{
+    height: 40px;
+    width: 60px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 12px;
+    border: 1px solid rgb(96, 106, 47);
+    border-radius: 10px 5px 10px 5px;
+    background-color: #579681;
+}
 .work1 {
     font-size: 20px;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
@@ -104,9 +114,9 @@ h2 {
     /* text-align: center */
     color: #bc9d2f;
     text-align: center;
-        padding: 12px;
+        padding: 2px;
         background-color: #7E8180;
-        margin: 12px;
+        margin: 2px;
     /* text-decoration: underline; */
 
 }

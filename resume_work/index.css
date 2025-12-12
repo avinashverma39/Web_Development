@@ -73,7 +73,9 @@ h2 {
 
 
 }
-
+b{
+    color: black;
+}
 .page{
     /* height: 20px;
     width: 10px; */
@@ -88,14 +90,14 @@ h2 {
 }
 button{
     height: 40px;
-    width: 80px;
+    width: 150px;
     padding: 2px;
     margin: 2px;
     border-radius: 12px;
     border: 1px solid rgb(96, 106, 47);
     border-radius: 20px ;
     /* background-color: #579681; */
-    box-shadow: 2px 2px 10px rgb(181, 51, 22);
+    box-shadow: 2px 2px 10px rgb(181, 22, 25);
 }
 .work1 {
     font-size: 20px;
@@ -111,7 +113,8 @@ button{
     /* text-decoration: underline; */
 
 }
-a{
+.rr::first-letter {
+    text-align: center;
     color: rgb(255, 0, 144);
 }
 .rr {

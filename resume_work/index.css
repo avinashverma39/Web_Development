@@ -72,12 +72,12 @@ h2 {
 .page{
     /* height: 20px;
     width: 10px; */
-    background-color: rgb(16, 1, 1);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 2px ;
+    background-color: #7E8180;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #d72525;
     border-radius: 3px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .work1 {
@@ -103,10 +103,11 @@ h2 {
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     /* text-align: center */
     color: #bc9d2f;
-    /* text-align: center; */
-    /* padding: 12px;
-    margin: 12px; */
-    text-decoration: underline;
+    text-align: center;
+        padding: 12px;
+        background-color: #7E8180;
+        margin: 12px;
+    /* text-decoration: underline; */
 
 }
 

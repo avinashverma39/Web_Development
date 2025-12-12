@@ -68,7 +68,7 @@ work1 {
     color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 255, 255);
     border-radius: 4px;
-    animation: wel 4s backwards 3s 2 normal;
+    animation: wel 4s backwards 3s infinite normal;
 }
 
 .Education {

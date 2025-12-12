@@ -70,21 +70,27 @@ h2 {
 }
 
 .page{
+    /* height: 20px;
+    width: 10px; */
+    background-color: rgb(16, 1, 1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px ;
+    border-radius: 3px;
     text-decoration: underline;
-    color: rgb(255, 255, 255);
-    font-size: 18px;    
-    text-align: center;
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);   
-    border-radius: 4px;
-    
-    padding: 6px;
 }
 
-.page{
-    text-decoration: underline;
-    color: rgb(255, 255, 255);
-    font-size: 18px;        
+.work1 {
+    font-size: 20px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* text-align: center */
+    color: #ffffff;
+    margin: 12px;
+
+}
+
+.rr {
+
     text-align: center;
     color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 255, 255);

@@ -52,12 +52,21 @@ h2 {
 
 }
 
-
-work1 {
+.page{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px ;
+    border-radius: 3px;
+    text-decoration: underline;
+}
+.work1 {
     font-size: 20px;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     /* text-align: center */
-    color: #59A68A;
+    color: #ffffff;
     margin: 12px;
 
 }

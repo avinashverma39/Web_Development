@@ -202,7 +202,7 @@ p {
         width: 0%;
         border: 1px solid rgb(255, 255, 255);
         border-radius: 4px;
-        padding: 2px;
+        /* padding: 2px; */
         margin: auto;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -214,7 +214,7 @@ p {
         border: 2px solid rgb(255, 255, 255);
         border-radius: 4px;
         text-align: center;
-        padding: 2px;
+        /* padding: 2px; */
         justify-content: space-evenly;
         margin: auto;
 

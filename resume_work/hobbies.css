@@ -1,0 +1,16 @@
+h2 {
+    color: rgb(228, 227, 227);
+    background-color: #7E8180;
+    display: inline-block;
+    height: 40px;
+    width: 900px;
+    padding: 1px;
+    margin: 20px;
+    border: 2px solid rgb(96, 106, 47);
+    border-radius: 6px 19px 1px;
+    text-align: center;
+    /* font-size: 20px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 10px rgb(66, 138, 132);
+
+}

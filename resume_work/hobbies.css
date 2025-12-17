@@ -43,3 +43,15 @@ h3{
 b {
     color: rgb(183, 19, 19);
 }
+
+p {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    font-size: 18px;
+    /* margin: 50px; */
+    text-align: center;
+    /* margin: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px; */
+}

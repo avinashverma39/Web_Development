@@ -90,7 +90,7 @@ p {
 } */
 .footer {
 
-    min-height: 60vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     text-align: center;

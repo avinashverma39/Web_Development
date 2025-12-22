@@ -7,7 +7,7 @@ h2 {
     padding: 1px;
     margin: 20px;
     position: relative;
-    left: 40%;
+    left: 20%;
     border: 2px solid rgb(112, 70, 126);
     border-radius: 6px 19px 1px;
     text-align: center;
@@ -24,7 +24,7 @@ h2 {
     width: 350px;
     height: auto;
     position: relative;
-    left: 30px;
+    left: 0px;
     top: 25px;
     border: 2px solid rgba(161, 6, 251, 0.704);
     border-radius: 1px 30px 1px 30px;

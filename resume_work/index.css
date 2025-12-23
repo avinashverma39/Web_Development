@@ -60,17 +60,20 @@
     color: rgb(255, 0, 144);
 }
 
-h1 {
+h5 {
     /* padding: 2%; */
     /* margin: auto; */
     /* border: 2px 2px 2px solid color-mix(in srgb-linear, rgb(0, 0, 0) 50%, black 50%); */
     /* border-radius: 5px; */
     /* box-shadow: 2px 2px 10px rgb(12, 29, 29); */
     text-align: left;
+    /* text-size-adjust: auto; */
     color: rgb(0, 255, 255);
+    animation: wel 5s backwards 3s infinite normal;
+    display: inline-block;
 }
 
-h1::first-letter {
+h5::first-letter {
     text-align: center;
     color: rgb(255, 0, 144);
 }
@@ -262,23 +265,23 @@ button:hover {
 @keyframes wel {
     from {
         width: 0%;
-        border: 1px solid rgb(255, 255, 255);
-        border-radius: 4px;
+        /* border: 1px solid rgb(255, 255, 255); */
+        /* border-radius: 4px; */
         /* padding: 2px; */
-        margin: auto;
+        /* margin: auto; */
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
     }
 
     to {
-        width: 50%;
-        border: 2px solid rgb(255, 255, 255);
-        border-radius: 4px;
-        text-align: center;
+        width: 100%;
+        /* border: 2px solid rgb(255, 255, 255); */
+        /* border-radius: 4px; */
+        /* text-align: center; */
         /* padding: 2px; */
         justify-content: space-evenly;
-        margin: auto;
+        /* margin: auto; */
     }
 }
 

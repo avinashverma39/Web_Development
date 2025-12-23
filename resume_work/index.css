@@ -1,11 +1,12 @@
 .card1 {
     width: 400px;
+    /* height: 500px; */
     border: 2px solid black;
     border-radius: 25px;
     padding: 20px;
     margin: 20px;
     position: relative;
-    left: 30%;
+    left: -4%;
     box-shadow: 5px 5px 30px color-mix(in srgb, rgb(255, 0, 128) 50%, white 50%);
 
 }
@@ -265,6 +266,8 @@ button:hover {
 @keyframes wel {
     from {
         width: 0%;
+        text-align: center;
+        display: inline-block;
         /* border: 1px solid rgb(255, 255, 255); */
         /* border-radius: 4px; */
         /* padding: 2px; */
@@ -275,12 +278,13 @@ button:hover {
     }
 
     to {
-        width: 100%;
+        width: 400px;
         /* border: 2px solid rgb(255, 255, 255); */
         /* border-radius: 4px; */
-        /* text-align: center; */
+        text-align: center;
+        /* display:inline-block; */
         /* padding: 2px; */
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
         /* margin: auto; */
     }
 }

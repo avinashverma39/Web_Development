@@ -166,7 +166,7 @@ button {
   border: 1px solid rgb(220, 92, 183);
   border-radius: 20px;
   /* background-color: #579681; */
-  box-shadow: 2px 2px 10px rgb(22, 181, 70);
+  box-shadow: 2px 2px 10px rgb(218, 208, 112);
   /* animation: button 1s backwards 3s infinite normal; */
 }
 
@@ -350,7 +350,7 @@ button:hover {
     border: 1px solid rgb(220, 92, 183);
     border-radius: 20px;
     /* background-color: #579681; */
-    box-shadow: 2px 2px 10px rgb(22, 181, 70);
+    box-shadow: 2px 2px 10px rgb(181, 73, 73);
   }
 
   to {
@@ -363,6 +363,6 @@ button:hover {
     border: 2px solid color-mix(in oklab, #ff0000 25%, #0000ff 25%);
     border-radius: 20px;
     /* background-color: #579681; */
-    box-shadow: 2px 2px 10px rgb(0, 251, 147);
+    box-shadow: 2px 2px 10px rgb(49, 213, 85);
   }
 }

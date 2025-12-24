@@ -54,6 +54,7 @@
     color: rgb(255, 255, 255);
     /* border: 1px solid rgb(255, 255, 255); */
     border-radius: 4px;
+    animation: welcome 5s backwards 6s infinite normal;
 }
 
 .Welcome::first-letter {
@@ -83,9 +84,11 @@ h5::first-letter {
     text-align: center;
     color: rgba(107, 239, 239, 0.701);
 }
-.nam{
-    color:rgb(255, 247, 7)
+
+.nam {
+    color: rgb(255, 247, 7)
 }
+
 h4 {
     color: rgb(228, 227, 227);
     /* background-color: #2da47d; */
@@ -266,6 +269,23 @@ button:hover {
     animation: button 0.5s forwards;
 }
 
+@keyframes welcome {
+    from {
+        width: 0%;
+        text-align: left;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    to {
+        width: 100%;
+        text-align: left;
+        display: inline-block;
+    }
+}
+
 @keyframes wel {
     from {
         width: 0%;
@@ -333,7 +353,7 @@ button:hover {
 
     to {
         height: 40px;
-        width: 40%;
+        width: 100px;
         padding: 2px;
         margin: 2px;
         /* background-color: lightgreen; */

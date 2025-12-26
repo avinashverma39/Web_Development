@@ -126,8 +126,9 @@ h4 {
 } */
 
 h2 {
-  background: #020024;
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(14, 14, 121, 0.84) 35%, rgba(0, 212, 255, 1) 100%);
+   
+  /* background: #020024;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(14, 14, 121, 0.84) 35%, rgba(0, 212, 255, 1) 100%); */
   /* background-color: #7e8180; */
   display: inline-block;
   height: 40px;

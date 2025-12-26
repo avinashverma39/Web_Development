@@ -91,7 +91,10 @@ h5::first-letter {
 
 h4 {
   color: rgb(228, 227, 227);
-  /* background-color: #2da47d; */
+  /* background-color: #3f98f2; */
+background: #020024;
+background: linear-gradient(318deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 52%, rgba(0, 212, 255, 1) 86%, rgba(0, 212, 255, 1) 100%);
+  
   display: inline-block;
   height: 30px;
   width: 1040px;

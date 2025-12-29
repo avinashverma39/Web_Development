@@ -167,3 +167,14 @@ span {
         background-color: rgb(227, 104, 191);
     }
 }
+
+@keyframes work {
+    from {
+        background-color: #7E8180;
+    }
+
+    to {
+        background-color: rgb(104, 191, 227);
+    }
+    
+}

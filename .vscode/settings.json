@@ -1,0 +1,11 @@
+{
+  "workbench.view.alwaysShowHeaderActions": false,
+  "workbench.view.showQuietly": {
+    "workbench.panel.output": false
+  },
+  "workbench.tips.enabled": true,
+  "workbench.settings.openDefaultKeybindings": false,
+  "workbench.settings.openDefaultSettings": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.revealIfOpen": false
+}

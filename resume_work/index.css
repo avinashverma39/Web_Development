@@ -81,7 +81,7 @@ h5::first-letter {
 
 .work1::first-line {
   text-align: center;
-  color: rgba(107, 239, 239, 0.701);
+  color: rgba(220, 247, 18, 0.701);
 }
 
 .nam {
@@ -113,9 +113,10 @@ h4 {
   animation: h3 1s backwards 3s infinite normal;
 }
 
-/* .ee {
-  color: fuchsia;
-} */
+.ee {
+  color: rgb(230, 87, 106);
+  background-color: inherit;
+}
 
 * {
   background-color: #7e8180;
@@ -178,8 +179,8 @@ p i{
   font-size: 20px;
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   /* text-align: center */
-  background: #b3e9ff;
-  background: radial-gradient(circle, rgba(179, 233, 255, 1) 12%, rgba(87, 199, 133, 1) 53%, rgba(255, 247, 171, 1) 90%);
+ background: #b3e9ff;
+background: linear-gradient(151deg, rgba(179, 233, 255, 1) 0%, rgba(87, 150, 199, 1) 50%, rgba(63, 130, 217, 1) 43%);
   box-shadow: 2px 2px 5px #000;
   /* color: #ffffff; */
   margin: 12px;

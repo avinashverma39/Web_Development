@@ -114,7 +114,11 @@ h4 {
 }
 
 .ee {
-  color: rgb(230, 87, 106);
+  background: #121FCF;
+background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
   background-color: inherit;
 }
 

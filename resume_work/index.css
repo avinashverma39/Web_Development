@@ -184,7 +184,7 @@ p i{
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   /* text-align: center */
  background: #b3e9ff;
-background: linear-gradient(151deg, rgba(179, 233, 255, 1) 0%, rgba(87, 150, 199, 1) 50%, rgba(63, 130, 217, 1) 43%);
+background: linear-gradient(151deg, rgb(121, 178, 201) 0%, rgba(87, 150, 199, 1) 50%, rgb(81, 134, 204) 43%);
   box-shadow: 2px 2px 5px #000;
   /* color: #ffffff; */
   margin: 12px;

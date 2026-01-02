@@ -118,11 +118,9 @@ p {
     /* margin: 50px; */
     text-align: center;
 }
-
 span {
     color: rgb(73, 131, 238)
 }
-
 .foot {
     text-align: center;
     font-size: 15px;
@@ -133,7 +131,6 @@ span {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
 }
-
 /* .Contacts {
      min-height: 30vh;
     display: flex;

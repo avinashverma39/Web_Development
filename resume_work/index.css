@@ -341,6 +341,7 @@ p {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   position: relative;
   left: -3%;
+  /* display: inline-block; */
 }
 
 @keyframes welcome {

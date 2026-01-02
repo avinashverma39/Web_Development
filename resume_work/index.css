@@ -89,7 +89,8 @@ h5::first-letter {
 }
 
 h4 {
-  /* color: rgb(27, 29, 26); */
+
+  /* color: rgb(81, 203, 20); */
   /* background-color: #3f98f2; */
   background: #020024;
   background: linear-gradient(318deg,
@@ -115,9 +116,9 @@ h4 {
 
 .ee {
   background: #121FCF;
-background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
   background-color: inherit;
 }
@@ -136,14 +137,23 @@ background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
     position: relative;
     left: 100px;
 } */
-i  b{
+i b {
   background: #000000;
-background: radial-gradient(ellipse farthest-side at top right, #000000 8%, #21B4E2 25%, #21B4E2 75%, #000000 95%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: radial-gradient(ellipse farthest-side at top right, #000000 8%, #21B4E2 25%, #21B4E2 75%, #000000 95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 }
+
 h2 {
+  color: rgb(0, 0, 0);
+  /* background: #21B4E2;
+  background: radial-gradient(ellipse farthest-side at top right, #21B4E2 0%, #000000 41%, #000000 29%, #21B4E2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: inherit; */
+
+  /* color: rgba(2, 0, 36, 1); */
   background: #020024;
   background: linear-gradient(90deg,
       rgba(2, 0, 36, 1) 0%,
@@ -177,20 +187,21 @@ b {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
   /* background-color: inherit; */
- /* color: inherit; */
+  /* color: inherit; */
   margin-bottom: 20px;
 }
 
-p i{
+p i {
   background-color: inherit;
   color: inherit;
 }
+
 .work1 {
   font-size: 20px;
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   /* text-align: center */
- background: #b3e9ff;
-background: linear-gradient(151deg, rgb(121, 178, 201) 0%, rgba(87, 150, 199, 1) 50%, rgb(81, 134, 204) 43%);
+  background: #b3e9ff;
+  background: linear-gradient(151deg, rgb(121, 178, 201) 0%, rgba(87, 150, 199, 1) 50%, rgb(81, 134, 204) 43%);
   box-shadow: 2px 2px 5px #000;
   /* color: #ffffff; */
   margin: 12px;

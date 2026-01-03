@@ -107,7 +107,13 @@ h4 {
 }
 
 b {
-    color: rgb(183, 19, 19);
+    /* color: rgb(183, 19, 19); */
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
 }
 
 p {
@@ -118,9 +124,17 @@ p {
     /* margin: 50px; */
     text-align: center;
 }
+
 span {
-    color: rgb(73, 131, 238)
+     color: rgb(73, 131, 238);
+    /* background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+
 }
+
 .foot {
     text-align: center;
     font-size: 15px;
@@ -131,6 +145,7 @@ span {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
 }
+
 /* .Contacts {
      min-height: 30vh;
     display: flex;
@@ -173,5 +188,5 @@ span {
     to {
         background-color: rgb(104, 191, 227);
     }
-    
+
 }

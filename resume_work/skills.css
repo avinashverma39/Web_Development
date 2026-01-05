@@ -163,11 +163,27 @@ p {
 }
 
 @keyframes button {
-  from {
-    color: white;
-    background-color: #db3535;
-    width: 0px;
-    /* background-color: inherit; */
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+    from {
+        color: white;
+        background-color: #db3535;
+        width: 0px;
+        /* background-color: inherit; */
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    to {
+        color: cyan;
+        background: #f8f8fd;
+        background: linear-gradient(318deg,
+                rgba(2, 0, 36, 1) 0%,
+                rgba(9, 9, 121, 1) 52%,
+                rgba(0, 212, 255, 1) 86%,
+                rgba(0, 212, 255, 1) 100%);
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        /* background-color: rgb(193, 176, 182); */
+        width: 220px;
+    }
+}

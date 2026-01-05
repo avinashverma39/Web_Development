@@ -188,3 +188,15 @@ p {
     }
 }
 
+@keyframes work {
+  from {
+    background-color: #1bdf9e;
+    /* background-color: inherit; */
+    width: 400px;
+  }
+
+  to {
+    background-color: rgb(104, 191, 227);
+    /* background-color: inherit; */
+  }
+}

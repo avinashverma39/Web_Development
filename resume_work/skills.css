@@ -52,6 +52,7 @@ h2 {
   text-align: center;
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   box-shadow: 2px 2px 10px rgb(8, 245, 127);
+    animation: button both 3s 5 alternate;
 }
 
 .Skills {
@@ -155,6 +156,7 @@ p {
   /* font-size: 30px; */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
+  
 }
 
 @keyframes button {

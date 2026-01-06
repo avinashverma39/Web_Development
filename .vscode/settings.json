@@ -7,5 +7,6 @@
   "workbench.settings.openDefaultKeybindings": false,
   "workbench.settings.openDefaultSettings": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.editor.revealIfOpen": false
+  "workbench.editor.revealIfOpen": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

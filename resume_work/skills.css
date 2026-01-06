@@ -72,6 +72,13 @@ h2 {
     color: rgb(255, 255, 255);
 }
 
+.Skills:hover {
+  /* color: rgb(183, 19, 19); */
+  /* background-color: rgb(104, 191, 227); */
+  background-color: inherit;
+  animation: work 0.5s infinite alternate;
+}
+
 h3 {
     color: rgb(228, 227, 227);
     background-color: #7e8180;

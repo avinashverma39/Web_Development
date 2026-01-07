@@ -159,3 +159,19 @@ p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
 }
+
+
+
+
+@keyframes work {
+  from {
+    background-color: #1bdf9e;
+    /* background-color: inherit; */
+    width: 400px;
+  }
+
+  to {
+    background-color: rgb(104, 191, 227);
+    /* background-color: inherit; */
+  }
+}

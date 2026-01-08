@@ -242,9 +242,7 @@ button {
   background: #020024;
   background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
   border-radius: 20px;
-  /* color: inherit; */
-  /* background-color: inherit; */
-  /* background-color: #579681; */
+ 
   box-shadow: 2px 2px 10px rgb(218, 208, 112);
   /* animation: button 1s backwards 3s infinite normal; */
 }

@@ -448,3 +448,17 @@ p {
     box-shadow: 2px 2px 10px rgb(22, 136, 181);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .card1 {
+    width: 300px;
+    /* height: 500px; */
+    border: 2px 4px solid color-mix(in srgb, rgb(255, 0, 128) 50%, white 50%);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    left: calc(50% - 160px);
+    box-shadow: 5px 5px 30px color-mix(in srgb, rgb(255, 0, 128) 50%, white 50%);
+  }
+}

@@ -278,7 +278,6 @@ button:hover {
   box-shadow: 2px 2px 10px rgb(0, 251, 147);
   animation: button 0.5s forwards;
 }
-
 @keyframes button {
   from {
     height: 40px;
@@ -294,7 +293,6 @@ button:hover {
     /* background-color: #579681; */
     box-shadow: 2px 2px 10px rgb(181, 73, 73);
   }
-
   to {
     height: 40px;
     width: 150px;
@@ -309,7 +307,6 @@ button:hover {
     box-shadow: 2px 2px 10px rgb(49, 213, 85);
   }
 }
-
 .Education {
   /* color: rgb(255, 0, 144); */
   font-size: 20px;
@@ -322,7 +319,6 @@ button:hover {
   margin: 2px;
   /* text-decoration: underline; */
 }
-
 p {
   font-size: 15px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -330,7 +326,6 @@ p {
   color: rgb(0, 0, 0);
   margin: auto;
 }
-
 .name {
   width: 400px;
   height: 20px;

@@ -378,8 +378,6 @@ p {
     /* display: inline-block; */
     /* border: 1px solid rgb(255, 255, 255); */
     /* border-radius: 4px; */
-    /* padding: 2px; */
-    /* margin: auto; */
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;

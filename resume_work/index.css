@@ -278,7 +278,6 @@ button:hover {
     border-radius: 20px;
     border: 1px solid rgb(220, 92, 183);
     border-radius: 20px;
-    /* background-color: #579681; */
     box-shadow: 2px 2px 10px rgb(181, 73, 73);
   }
   to {
@@ -286,11 +285,8 @@ button:hover {
     width: 150px;
     padding: 2px;
     margin: 2px;
-    /* color: #00eb2f; */
-    /* background-color: lightgreen; */
     border-radius: 20px;
     border: 1px solid color-mix(in oklab, #17c53a 50%, #00ff08 50%);
-  
     box-shadow: 2px 2px 10px rgb(49, 213, 85);
   }
 }

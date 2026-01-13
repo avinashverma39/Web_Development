@@ -39,7 +39,6 @@
     color-mix(in srgb-linear, rgb(0, 0, 0) 50%, black 50%);
   border-radius: 5px;
   box-shadow: 2px 2px 10px rgb(12, 29, 29);
-  /* box-sizing: content-box; */
 }
 
 .rr::first-letter {

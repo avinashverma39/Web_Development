@@ -145,13 +145,6 @@ i b {
 }
 h2 {
   color: rgb(0, 0, 0);
-  /* background: #21B4E2;
-  background: radial-gradient(ellipse farthest-side at top right, #21B4E2 0%, #000000 41%, #000000 29%, #21B4E2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-color: inherit; */
-
-  /* color: rgba(2, 0, 36, 1); */
   background: #020024;
   background: linear-gradient(
     90deg,

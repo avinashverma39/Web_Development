@@ -70,7 +70,6 @@ h5 {
   /* text-size-adjust: auto; */
   color: rgb(0, 255, 255);
   animation: wel 10s forwards 6s 2 forwards;
-  /* display: inline-block; */
 }
 
 h5::first-letter {

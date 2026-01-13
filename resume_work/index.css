@@ -1,6 +1,5 @@
 .card1 {
   width: 500px;
-  /* height: 500px; */
   border: 2px 4px solid color-mix(in srgb, rgb(255, 0, 128) 50%, white 50%);
   border-radius: 25px;
   padding: 20px;
@@ -286,7 +285,6 @@ p {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   position: relative;
   left: -3%;
-  /* display: inline-block; */
 }
 @keyframes welcome {
   from {

@@ -45,7 +45,6 @@ h3 {
   border: 2px solid rgb(206, 247, 4);
   border-radius: 6px 19px 1px;
   text-align: center;
-  /* font-size: 20px; */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   box-shadow: 2px 2px 10px rgb(70, 212, 110);
 }
@@ -63,8 +62,6 @@ h4 {
   border: 2px solid rgb(61, 149, 146);
   border-radius: 30px;
   text-align: center;
-  /* text-align: justify; */
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   box-shadow: 2px 2px 10px rgb(221, 107, 120);
 }
 

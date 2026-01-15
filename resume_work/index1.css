@@ -154,7 +154,6 @@ p {
 @keyframes work {
   from {
     background-color: #1bdf9e;
-    /* background-color: inherit; */
     width: 400px;
   }
 

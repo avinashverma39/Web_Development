@@ -148,8 +148,6 @@ p {
     );
     overflow: hidden;
     text-overflow: ellipsis;
-
-    /* background-color: rgb(193, 176, 182); */
     width: 220px;
   }
 }

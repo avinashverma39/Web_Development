@@ -8,13 +8,11 @@
   right: 0;
   bottom: 3px;
   left: 0;
-  /* background-color: #6d7170; */
   display: block;
 }
 
 .nav a {
   text-decoration: none;
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 .nav a:hover {

@@ -12,19 +12,8 @@
   display: block;
 }
 
-/* .navbar{ */
-/* background-color: #232826; */
-/* position: fixe; */
-/* top: 0; */
-/* width: 100%;
-    z-index: 1;
-    border: 2px solid black;
-    box-shadow: 0px 4px 2px -2px gray; */
-
-/* } */
 .nav a {
   text-decoration: none;
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 .nav a:hover {

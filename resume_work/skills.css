@@ -8,7 +8,6 @@
   right: 0;
   bottom: 3px;
   left: 0;
-  /* background-color: #6d7170; */
   display: block;
 }
 
@@ -161,7 +160,7 @@ p {
     );
     overflow: hidden;
     text-overflow: ellipsis;
-   width: 220px;
+    width: 220px;
   }
 }
 

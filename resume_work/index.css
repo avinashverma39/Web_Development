@@ -389,13 +389,11 @@ p {
     left: 30%;
     margin-top: 10px;
     margin-right: 15px;
-
    }
    h4 {
      width: 200px;
     font-size:15px;
     left: 400px;
-
    }
    .pic{
     width: 200px;
@@ -413,6 +411,4 @@ p {
     width: 100%;
   }
 }
-
-  
 }

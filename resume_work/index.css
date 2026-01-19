@@ -310,7 +310,7 @@ p {
     white-space: nowrap;
   }
   to {
-    width: 100%;
+    width: 10%;
   }
 }
 @keyframes h3 {
@@ -386,6 +386,24 @@ p {
     margin-right: 15px;
 
    }
+   h4 {
+     width: 200px;
+    font-size:15px;
+    left: 400px;
+
+   }
+
+   @keyframes wel {
+  from {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  to {
+    width: 100%;
+  }
+}
 
   
 }

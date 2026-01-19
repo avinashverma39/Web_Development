@@ -159,6 +159,28 @@ p {
 
   to {
     background-color: rgb(104, 191, 227);
+  }
+}
 
+@media only screen and (max-width: 400px) {
+  h2 {
+    width: 100px;
+    font-size: 10px;
+    left: 10%;
+  }
+  h4 {
+    width: 200px;
+    font-size: 7px;
+    left: 400px;
+  }
+  h3 {
+    width: 200px;
+    font-size: 7px;
+    left: 50px;
+  }
+  .Skills {
+    width: 150px;
+    font-size: 6px;
+    left: 0px;
   }
 }

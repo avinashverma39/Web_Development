@@ -198,21 +198,33 @@ p {
   }
 }
 
-@media screen and (min-width:200px) {
-  .imgcard2{
+@media screen and (min-width: 200px) {
+  .imgcard2 {
     width: 200px;
     height: 200px;
     left: 30%;
     margin-top: 10px;
     margin-right: 15px;
-   }
-   h4 {
-     width: 200px;
-    font-size:15px;
+  }
+  h4 {
+    width: 200px;
+    font-size: 15px;
     left: 400px;
-   }
-   .pic{
+  }
+  .pic {
     width: 200px;
     height: 200px;
     left: 20%;
-   }
+  }
+  @keyframes wel {
+    from {
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    to {
+      width: 100%;
+    }
+  }
+}

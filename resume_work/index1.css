@@ -125,7 +125,6 @@ p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
 }
-
 @keyframes button {
   from {
     color: white;
@@ -161,7 +160,6 @@ p {
     background-color: rgb(104, 191, 227);
   }
 }
-
 @media only screen and (max-width: 400px) {
   h2 {
     width: 100px;

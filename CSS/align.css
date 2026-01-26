@@ -1,7 +1,6 @@
 h1 {
     text-align: center;
 }
-
 .container {
     height: 600px;
     width: 60%;
@@ -19,9 +18,6 @@ h1 {
      /* align-content: baseline; */
 
      align-content: flex-start;
-
-
-
 }
 
 #org{
@@ -32,15 +28,12 @@ h1 {
     /* flex-shrink: 2; */
     min-width: 200px;
 }
-
 #blue{
     /* flex-basis: 50px; */
     /* flex-grow: 2; */
     /* flex-shrink: 3; */
     min-width: 300px;
-
 }
-
 .container div {
     height: 100px;
     width: 300px;
@@ -48,9 +41,6 @@ h1 {
     color: ghostwhite;
     /* font-size: 1.2em; */
 }
-
-
-
 * {
     background-color: rgb(46, 117, 132);
 }

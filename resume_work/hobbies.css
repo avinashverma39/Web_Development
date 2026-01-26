@@ -205,6 +205,7 @@ p {
 }
 
 @media screen and (min-width: 200px) {
+  
   .imgcard2 {
     width: 200px;
     height: 200px;
@@ -218,7 +219,7 @@ p {
     width: 200px;
     font-size: 15px;
     left: 400px;
-    
+
   }
   .pic {
     width: 200px;
@@ -232,7 +233,6 @@ p {
       text-overflow: ellipsis;
       white-space: nowrap;
     }
-
     to {
       width: 100%;
     }

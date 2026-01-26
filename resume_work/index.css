@@ -135,6 +135,7 @@ i b {
     #21b4e2 75%,
     #000000 95%
   );
+  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

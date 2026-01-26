@@ -176,6 +176,7 @@ p {
   to {
     background-color: rgb(104, 191, 227);
   }
+  
 }
 
 @media only screen and (max-width: 400px) {
@@ -205,7 +206,7 @@ p {
 }
 
 @media screen and (min-width: 200px) {
-  
+
   .imgcard2 {
     width: 200px;
     height: 200px;

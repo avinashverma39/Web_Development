@@ -1,7 +1,6 @@
 h1 {
     text-align: center;
 }
-
 .container {
     height: 300px;
     width: 80%;
@@ -16,18 +15,14 @@ h1 {
     /* justify-content: space-around; */
     justify-content: space-evenly;
     flex-direction: row-reverse;
-
     flex-wrap: wrap-reverse;
-
 }
-
 .container div {
     height: 100px;
     width: 50px;
     text-align: center;
     color: ghostwhite;
     font-size: 1.2em;
-
 }
 
 

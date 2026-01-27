@@ -6,9 +6,7 @@
     top: 10px;
     left: 10px;
     border-radius: 50%;
-
 }
-
 .mouth {
     width: 100px;
     height: 50px;
@@ -18,7 +16,6 @@
     left: 100px;
     border-radius: 0 0 30px 30px
 }
-
 .eyes {
     width: 40px;
     height: 40px;
@@ -29,7 +26,6 @@
     left: 180px;
 
 }
-
 .eyes1 {
       width: 40px;
     height: 40px;
@@ -38,6 +34,5 @@
     position: absolute;
     top: 80px;
     left: 70px;
-
 }
 

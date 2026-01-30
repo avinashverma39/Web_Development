@@ -22,8 +22,6 @@
     /* grid-column-start: 3;  */
      
      grid-template-rows: repeat(2,1fr);
-
-    /* grid-row: 2/4; */
 }
 .two{
       /* grid-column-start: 3;  */

@@ -23,7 +23,6 @@ h4 {
 
 }
 
-
 .card2 {
     width: 250px;
     height: 150px;
@@ -42,6 +41,7 @@ h4 {
     display: flex;
     justify-content: space-evenly;
 }
+
 
 .card:hover {
     background-color: antiquewhite;

@@ -132,7 +132,6 @@ p {
     color: white;
     background-color: #db3535;
     width: 0px;
-    /* background-color: inherit; */
     overflow: hidden;
     text-overflow: ellipsis;
   }

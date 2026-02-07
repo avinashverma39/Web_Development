@@ -188,7 +188,7 @@ p {
   }
 }
 
-@media screen and (min-width: 200px) {
+/* @media screen and (min-width: 200px) { */
   .imgcard2 {
     width: 200px;
     height: 200px;
@@ -219,4 +219,4 @@ p {
       width: 100%;
     }
   }
-}
+/* } */

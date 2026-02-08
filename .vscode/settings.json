@@ -6,13 +6,22 @@
   "workbench.tips.enabled": true,
   "workbench.settings.openDefaultKeybindings": false,
   "workbench.settings.openDefaultSettings": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.editor.revealIfOpen": false,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "workbench.editor.revealIfOpen": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "editor.definitionLinkOpensInPeek": true,
+  "workbench.browser.openLocalhostLinks": true,
+  "explorer.openEditors.minVisible": 8,
+  "debug.openExplorerOnEnd": true,
+  "accessibility.openChatEditedFiles": true,
+  "workbench.editor.openSideBySideDirection": "right",
+  "testing.automaticallyOpenPeekView": "never",
+  "explorer.openEditors.visible": 8,
+  "workbench.secondarySideBar.forceMaximized": false
 }

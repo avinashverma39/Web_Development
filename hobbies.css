@@ -10,11 +10,9 @@
   left: 0;
   display: block;
 }
-
 .nav a {
   text-decoration: none;
 }
-
 .nav a:hover {
   text-decoration: none;
   color: rgb(0, 255, 238);
@@ -23,7 +21,6 @@
   padding: 3.5px;
   margin: auto;
 }
-
 h2 {
   color: rgb(0, 0, 0);
   background-color: #7e8180;

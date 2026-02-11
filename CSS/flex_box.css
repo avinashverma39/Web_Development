@@ -1,8 +1,8 @@
 h1{
     text-align: center;
 }
-
 .container {
+
     height: 300px;
     width: 80%;
     background-color: azure;
@@ -24,8 +24,7 @@ h1{
     font-size: 1.2em;
    
 }
-
-
 *{
+
     background-color: rgb(46, 117, 132);
 }

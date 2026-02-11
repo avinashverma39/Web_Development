@@ -78,11 +78,13 @@ h3 {
 h4 {
   color: rgb(208, 213, 206);
   background: #020024;
-  background: linear-gradient(318deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(9, 9, 121, 1) 52%,
-      rgba(0, 212, 255, 1) 86%,
-      rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(
+    318deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 52%,
+    rgba(0, 212, 255, 1) 86%,
+    rgba(0, 212, 255, 1) 100%
+  );
   display: inline-block;
   height: 20px;
   width: 200px;
@@ -152,14 +154,17 @@ p {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
   to {
     color: cyan;
     background: #f8f8fd;
-    background: linear-gradient(318deg,
-        rgba(2, 0, 36, 1) 0%,
-        rgba(9, 9, 121, 1) 52%,
-        rgba(0, 212, 255, 1) 86%,
-        rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(
+      318deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 52%,
+      rgba(0, 212, 255, 1) 86%,
+      rgba(0, 212, 255, 1) 100%
+    );
     overflow: hidden;
     text-overflow: ellipsis;
     width: 220px;
@@ -175,7 +180,6 @@ p {
   to {
     background-color: rgb(104, 191, 227);
   }
-
 }
 
 @media only screen and (max-width: 400px) {
@@ -205,7 +209,6 @@ p {
 }
 
 @media screen and (min-width: 200px) {
-
   .imgcard2 {
     width: 200px;
     height: 200px;
@@ -215,17 +218,17 @@ p {
   }
 
   h4 {
-
     width: 200px;
     font-size: 15px;
     left: 400px;
-
   }
+
   .pic {
     width: 200px;
     height: 200px;
     left: 20%;
   }
+
   @keyframes wel {
     from {
       width: 100%;
@@ -233,6 +236,7 @@ p {
       text-overflow: ellipsis;
       white-space: nowrap;
     }
+
     to {
       width: 100%;
     }

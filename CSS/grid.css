@@ -24,6 +24,7 @@
      
      grid-template-rows: repeat(2,1fr);
 }
+
 .two{
       /* grid-column-start: 3;  */
      

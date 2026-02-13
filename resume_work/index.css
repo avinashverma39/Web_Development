@@ -15,6 +15,7 @@
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
+  justify-content: center;
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -31,7 +32,10 @@
   padding: 20px;
   margin: auto;
   /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
+
 /* 
 .work1 {
   grid-template-columns: repeat(2, 1fr);

@@ -1,4 +1,4 @@
-.card1 {
+/* .card1 {
   width: 500px;
   border: 2px 4px solid color-mix(in srgb, rgb(255, 0, 128) 50%, white 50%);
   border-radius: 25px;
@@ -7,9 +7,9 @@
   position: relative;
   left: calc(50% - 260px);
   box-shadow: 5px 5px 30px color-mix(in srgb, rgb(255, 0, 128) 50%, white 50%);
-}
+} */
 
-.pic {
+/* .pic {
   position: relative;
   left: 30%;
   top: 12px;
@@ -23,8 +23,8 @@
   border: 3px solid black;
   margin-bottom: 10px;
   box-shadow: 2px 2px 10px rgb(47, 235, 223);
-}
-
+} */
+/* 
 .rr {
   text-align: right;
   display: inline-block;
@@ -37,25 +37,25 @@
     color-mix(in srgb-linear, rgb(0, 0, 0) 50%, black 50%);
   border-radius: 5px;
   box-shadow: 2px 2px 10px rgb(12, 29, 29);
-}
+} */
 
-.rr::first-letter {
+/* .rr::first-letter {
   text-align: center;
   color: rgb(255, 0, 144);
-}
-
+} */
+/* 
 .Welcome {
   text-align: left;
   color: rgb(255, 255, 255);
   animation: welcome 5s backwards 6s infinite normal;
-}
+} */
 
-.Welcome::first-letter {
+/* .Welcome::first-letter {
   text-align: center;
   color: rgb(255, 0, 144);
-}
+} */
 
-h5 {
+/* h5 {
   text-align: left;
   color: rgb(0, 255, 255);
   animation: wel 10s forwards 6s 2 forwards;
@@ -73,9 +73,9 @@ h5::first-letter {
 
 .nam {
   color: rgb(255, 247, 7);
-}
+} */
 
-h4 {
+/* h4 {
   background: #020024;
   background: linear-gradient(
     318deg,
@@ -107,8 +107,8 @@ h4 {
     "Helvetica Neue",
     sans-serif;
   animation: h3 1s backwards 3s infinite normal;
-}
-
+} */
+/* 
 .ee {
   background: #121fcf;
   background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
@@ -138,9 +138,9 @@ i b {
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
-h2 {
+/* h2 {
   color: rgb(0, 0, 0);
   background: #020024;
   background: linear-gradient(
@@ -158,19 +158,19 @@ h2 {
   border-radius: 6px 19px 1px;
   text-align: center;
   box-shadow: 2px 2px 10px rgb(25, 65, 211);
-}
+} */
 
-b {
+/* b {
   color: black;
 }
 
 .abouti {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; */
+/* } */
 
-p i {
+/* p i {
   background-color: inherit;
   color: inherit;
 }
@@ -186,14 +186,14 @@ p i {
   );
   box-shadow: 2px 2px 5px #000;
   /* color: #ffffff; */
-  margin: 12px;
+  /* margin: 12px;
   border: 2px solid rgb(24, 23, 23);
   border-radius: 20px;
   text-align: center;
-  padding: 10px;
-}
+  padding: 10px; */
+/* } */
 
-.page {
+/* .page {
   background-color: inherit;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -212,12 +212,12 @@ button {
   background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
   border-radius: 20px;
   box-shadow: 2px 2px 10px rgb(218, 208, 112);
-}
+} */
 
-button:hover {
-  box-shadow: 2px 2px 10px rgb(0, 251, 147);
+/* button:hover {
+  box-shadow: 2px 2px 10px rgb(0, 251, 147); */
   /* cursor: pointer; */
-  background: #2a7b9b;
+  /* background: #2a7b9b;
   background: linear-gradient(
     90deg,
     rgba(42, 123, 155, 1) 0%,
@@ -232,8 +232,8 @@ button:hover {
   border-radius: 20px;
   box-shadow: 2px 2px 10px rgb(0, 251, 147);
   animation: button 0.5s forwards;
-}
-
+} */
+/* 
 @keyframes button {
   from {
     height: 40px;
@@ -274,9 +274,9 @@ p {
   text-align: center;
   color: rgb(0, 0, 0);
   margin: auto;
-}
+} */
 
-.name {
+/* .name {
   width: 400px;
   height: 20px;
   padding: 4px;
@@ -298,8 +298,8 @@ p {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
-}
-
+} */
+/* 
 .work {
   text-align: center;
   color: rgb(255, 255, 255);
@@ -315,9 +315,9 @@ p {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
-}
+} */
 
-.Contacts {
+/* .Contacts {
   text-align: center;
   color: rgb(255, 255, 255);
   font-family:
@@ -334,12 +334,12 @@ p {
     sans-serif;
   margin: auto;
   padding: 2px;
-}
+} */
 
-.meet ul a {
-  text-decoration: none;
+/* .meet ul a {
+  text-decoration: none; */
   /* color: rgb(180, 63, 215); */
-  font-size: 20px;
+  /* font-size: 20px;
   font-family:
     system-ui,
     -apple-system,
@@ -354,8 +354,9 @@ p {
     sans-serif;
   position: relative;
   left: -3%;
-}
+} */
 
+/* 
 @keyframes welcome {
   from {
     width: 0%;
@@ -371,8 +372,8 @@ p {
     text-align: left;
     display: inline-block;
   }
-}
-
+} */
+/* 
 @keyframes wel {
   from {
     width: 10%;
@@ -396,8 +397,8 @@ p {
     border: 1px solid rgb(96, 106, 47);
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgb(198, 53, 137);
-  }
-
+  } */
+/* 
   to {
     height: 30px;
     width: 400px;
@@ -421,8 +422,8 @@ p {
     left: calc(50% - 160px);
     box-shadow: 5px 5px 30px color-mix(in srgb, rgb(255, 0, 128) 50%, white 50%);
   }
-}
-
+} */
+/* 
 @media only screen and (max-width: 400px) {
   h2 {
     width: 100px;
@@ -458,8 +459,8 @@ p {
     width: 80px;
     height: 80px;
     left: 60%;
-  }
-}
+  } */
+/* }
 
 @media screen and (min-width: 200px) {
   .imgcard2 {
@@ -494,4 +495,4 @@ p {
       width: 100%;
     }
   }
-}
+} */ 

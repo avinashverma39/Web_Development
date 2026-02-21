@@ -30,17 +30,26 @@ body {
   margin-bottom: 10px;
 }
 
-.left h1 {
-  font-size: 18px;
+.left h2 {
+  /* width: 200px; */
+  font-size: 35px;
   margin-bottom: 20px;
+  margin-top: 10px;
+  /* display: block; */
 }
 .left h1 span {
   color: #f4b400;
 }
+
+/* div h4 p{
+  display: inline-block;
+} */
 .work {
   background: #f4b400;
-  display: inline-block;
-  padding: 6px 12px;
+  width: 350px;
+  /* display:inline-block; */
+  padding: 5px 10px;
+  border-radius: 12px;
   margin-bottom: 20px;
   font-weight: bold;
 }
@@ -50,6 +59,7 @@ body {
   margin-bottom: 30px;
   color: #555;
   line-height: 1.6;
+  font-weight: bold;
 }
 
 button {

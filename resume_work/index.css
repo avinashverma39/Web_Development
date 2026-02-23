@@ -101,9 +101,9 @@ button:hover {
   /* padding: 40px; */
 }
 .social {
-  height: 60%;
+  height: 50%;
   position: absolute;
-  bottom: 50px;
+  bottom: 100px;
   left: 100%;
   background: #f4b400;
   /* padding: 2px 2px; */

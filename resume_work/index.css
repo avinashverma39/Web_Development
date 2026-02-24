@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  fiont-family: "Poppins", sans-serif;
   background-image: #ffffff;
 }
 

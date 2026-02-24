@@ -64,12 +64,15 @@ body {
 }
 
 button {
+  /* display:inline-block; */
+  width: 200px;
   background-color: #f4b400;
   border: none;
   color: white;
   padding: 12px 25px;
   font-weight: bold;
   cursor: pointer;
+  border-radius: 40px;
   transition: 0.4s;
 }
 button:hover {
@@ -121,6 +124,9 @@ button:hover {
   padding: 10px;
   filter: invert(100%);
   transition: 0.3s;
+}
+span {
+  color: rgb(0, 255, 255);
 }
 
 /* .intro { */

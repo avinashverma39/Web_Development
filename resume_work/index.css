@@ -32,9 +32,6 @@ h2 {
   text-align: left;
   width: 100%;
   font-size: 70px;
-  /* margin-bottom: 20px; */
-  /* margin-top: 10px; */
-  /* display: block; */
 }
 .left h1 span {
   /* width: 50%; */
@@ -48,54 +45,49 @@ h2 {
   background: #f4b400;
   width: 360px;
   display: inline-block;
-  padding: 5px 10px;
+  padding: 2px 10px;
   /* border-radius: 12px; */
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-weight: bold;
 }
 
 .description {
   max-width: 400px;
   margin-bottom: 30px;
-  color: #555;
-  line-height: 1.6;
+  color: #303030;
+  line-height: 2.0;
   font-weight: bold;
+  text-spacing-trim: 20px;
 }
 
 .btn {
   align-items: center;
   display: inline-block;
   width: 200px;
-  /* background-color: #f4b400; */
   border: none;
-  /* color: white; */
-  /* padding: 5px 10px; */
   font-weight: bold;
   cursor: pointer;
   border-radius: 40px;
   transition: 0.4s;
 }
-button:hover {
-  background-color: #d99a00;
+.btn:hover {
+  background-color: #01ff2f;
 }
 
 /* Right */
 .right {
   position: relative;
-  flex: 1;
-  background: #111;
+  background: #fffdfd;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .right img {
   width: 100%;
-  /* background-color: white; */
-  /* border-radius: 10px; */
   height: 100%;
   filter: grayscale(100%);
   /* border-radius: 50%; */
-  /* object-fit: cover; */
+  object-fit: cover;
 }
 
 .hero {

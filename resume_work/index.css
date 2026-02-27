@@ -1,21 +1,23 @@
 * {
+  /* background-color: aquamarine; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
+  /* background-color: aquamarine; */
   /* font-family: Arial, Helvetica, sans-serif; */
   fiont-family: "Poppins", sans-serif;
-  background-image: #ffffff;
+  background-image: #d24545;
 }
 
-.container {
+/* .container {
   width: 100%;
   height: 100vh;
   display: flex;
   position: relative;
-}
+} */
 /* Left */
 .left {
   flex: 1;
@@ -31,15 +33,22 @@ body {
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
+/* .left h1 {
+  fiont-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+} */
 
-.left h2 {
-  /* width: 200px; */
+h2 {
+  text-align: left;
+  width: 104%;
   font-size: 35px;
   margin-bottom: 20px;
   margin-top: 10px;
   /* display: block; */
 }
 .left h1 span {
+  /* width: 50%; */
   color: #f4b400;
 }
 
@@ -48,8 +57,8 @@ body {
 } */
 .work {
   background: #f4b400;
-  width: 350px;
-  /* display:inline-block; */
+  width: 340px;
+  display: inline-block;
   padding: 5px 10px;
   border-radius: 12px;
   margin-bottom: 20px;
@@ -64,13 +73,14 @@ body {
   font-weight: bold;
 }
 
-button {
-  /* display:inline-block; */
+.btn {
+  align-items: center;
+  display: inline-block;
   width: 200px;
-  background-color: #f4b400;
+  /* background-color: #f4b400; */
   border: none;
-  color: white;
-  padding: 12px 25px;
+  /* color: white; */
+  /* padding: 5px 10px; */
   font-weight: bold;
   cursor: pointer;
   border-radius: 40px;
@@ -90,8 +100,9 @@ button:hover {
   justify-content: center;
 }
 .right img {
-  width: 350px;
-  border-radius: 10px;
+  width: 100%;
+  /* background-color: white; */
+  /* border-radius: 10px; */
   height: 100%;
   filter: grayscale(100%);
   /* border-radius: 50%; */
@@ -106,10 +117,10 @@ button:hover {
 }
 .social {
   height: 50%;
-  position: absolute;
+  position: relative;
   bottom: 100px;
   left: 100%;
-  background: #f4b400;
+  background: #a68428;
   /* padding: 2px 2px; */
   border-radius: 20px;
   gap: 20px;
@@ -119,12 +130,14 @@ button:hover {
   text-decoration: none;
   /* text-decoration: none; */
   color: rgb(255, 255, 255);
+  background-color: rgb(243, 220, 10);
   font-weight: normal;
 }
 .social a img {
-  padding: 10px;
+  /* padding: 10px; */
   filter: invert(100%);
   transition: 0.3s;
+  /* background-color: lawngreen; */
 }
 span {
   color: rgb(0, 255, 255);

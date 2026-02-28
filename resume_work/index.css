@@ -79,21 +79,21 @@ h2 {
   object-fit: cover;
 }
 
-
 .fullpage {
   margin: 0%;
   padding: 0%;
   width: 100%;
 }
+
 .social {
-  display: flex;
+  /* display: flex; */
   /* flex-direction: column; */
   height: 5%;
   width: 10%;
   bottom: 100px;
   background: #ffffff;
   padding: 40px 23px;
-  gap: 50px;
+  gap: 10px;
 }
 .social a {
   padding: 5px;

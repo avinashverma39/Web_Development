@@ -87,10 +87,10 @@ h2 {
 }
 
 .social {
-  /* display: flex; */
-  /* flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   height: 5%;
-  width: 10%;
+  /* width: 10%; */
   bottom: 100px;
   background: #ffffff;
   padding: 40px 23px;

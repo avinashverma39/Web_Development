@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(131, 116, 150);
 }
 .container text-center {
   margin: 0;
@@ -15,7 +16,7 @@ body {
 /* Left */
 .left {
   flex: 1;
-  background: white;
+  background: inherit;
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -66,7 +67,11 @@ h2 {
 
 .right {
   position: relative;
-  background: #fffdfd;
+  /* background: #fffdfd; */
+  box-shadow: 20px 25px 25px #45c279;
+  box-sizing: border-box;
+  /* flex: 2; */
+  /* border-radius: 60px 10px 10px 60px; */
   display: flex;
   justify-content: center;
 }
@@ -75,6 +80,7 @@ h2 {
   width: 100%;
   height: 100%;
   margin: 25px;
+  /* background-color: inherit; */
   filter: grayscale(100%);
   border-radius: 60px 10px 10px 60px;
   object-fit: cover;
@@ -92,7 +98,7 @@ h2 {
   /* height: 5%; */
   /* width: 10%; */
   bottom: 100px;
-  background: #ffffff;
+  /* background: #ffffff; */
   padding: 40px 23px;
   gap: 10px;
 }

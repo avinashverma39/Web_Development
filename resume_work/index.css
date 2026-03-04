@@ -99,8 +99,8 @@ h2 {
   /* width: 10%; */
   bottom: 100px;
   /* background: #ffffff; */
-  padding: 40px ;
-  margin:25px;
+  padding: 40px;
+  margin: 25px;
   gap: 10px;
 }
 .social a {
@@ -108,7 +108,7 @@ h2 {
   text-decoration: none;
 }
 .social a img {
-  background-color:rgb(255, 47, 0);
+  background-color: rgb(255, 47, 0);
   border-radius: 50%;
   height: 30px;
   width: 30px;

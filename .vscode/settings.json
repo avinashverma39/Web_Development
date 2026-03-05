@@ -23,5 +23,6 @@
   "workbench.editor.openSideBySideDirection": "right",
   "testing.automaticallyOpenPeekView": "never",
   "explorer.openEditors.visible": 8,
-  "workbench.secondarySideBar.forceMaximized": false
+  "workbench.secondarySideBar.forceMaximized": false,
+  "terminal.integrated.fontFamily": "\"JetBrainsMono Nerd Font\""
 }

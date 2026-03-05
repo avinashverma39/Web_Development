@@ -13,6 +13,13 @@ body {
   background-image: #d24545;
 }
 
+.navbar {
+  display: inline-block;
+  position: right;
+  align-items: center;
+}
+.nav {
+}
 /* Left */
 .left {
   flex: 1;

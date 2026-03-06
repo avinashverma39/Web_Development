@@ -27,7 +27,6 @@ body {
   padding: 50px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
 }
 
 h2 {

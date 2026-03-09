@@ -229,8 +229,8 @@ p {
     left: 20%;
   }
 
-  @keyframes wel {
-    from {
+  /* @keyframes wel { */
+    /* from {
       width: 100%;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -241,4 +241,4 @@ p {
       width: 100%;
     }
   }
-}
+} */

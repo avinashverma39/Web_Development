@@ -28,10 +28,10 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  /* gap: 2px; */
 }
 
 input {
+  text-align: center;
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
@@ -53,4 +53,9 @@ label {
   color: rgb(0, 0, 0);
   border: none;
   cursor: pointer;
+}
+
+
+button:hover {
+  background-color: #61d245;
 }

@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: rgb(0, 0, 0);
+  background-color: gray;
 }
 h1 {
   text-align: center;
@@ -16,17 +16,49 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 2px solid black; */
 }
 .Page {
+  align-content: center;
   border: 2px solid black;
-  padding: 20px;
+  padding: 30px;
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.8);
+  width: 300px;
 }
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
+  /* gap: 2px; */
+}
+
+input {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  text-align: center;
+  color: #d24545;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.submit {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #b06565;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #61d245;
 }

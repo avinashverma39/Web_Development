@@ -17,14 +17,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #ccc; */
-  /* border: 2px solid black; */
 }
 .Page {
+  align-content: center;
   border: 2px solid black;
   padding: 30px;
   border-radius: 5px;
-  background-color: rgba(181, 166, 166, 0.8);
   width: 300px;
 }
 

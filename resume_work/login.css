@@ -31,3 +31,10 @@ form {
   flex-direction: column;
   /* gap: 2px; */
 }
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

@@ -22,7 +22,7 @@ body {
   border: 2px solid black;
   padding: 30px;
   border-radius: 5px;
-  width: 300px;
+  width: 400px;
 }
 
 form {
@@ -36,7 +36,7 @@ input {
   padding: 20px;
   margin-bottom: 10px;
   border: 1px solid #000000;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 label {
@@ -50,7 +50,7 @@ label {
   width: 100%;
   height: 40px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 20px;
   text-align: center;
   background-color: #b06565;
   color: rgb(0, 0, 0);

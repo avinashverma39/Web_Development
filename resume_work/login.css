@@ -7,7 +7,7 @@
 h1 {
   text-align: center;
   margin-bottom: 40px;
-  color: #d24545;
+  color: #dc1d1d;
 }
 body {
   background: url(./img/login_bg.jpg) no-repeat;
@@ -43,7 +43,7 @@ input {
 
 label {
   text-align: center;
-  color: #d24545;
+  color: #d00b0b;
   margin-bottom: 5px;
   font-weight: bold;
 }
@@ -54,7 +54,7 @@ label {
   padding: 10px;
   border-radius: 20px;
   text-align: center;
-  background-color: #b06565;
+  background-color: #aa4242;
   color: rgb(0, 0, 0);
   border: none;
   cursor: pointer;

@@ -61,3 +61,10 @@ label {
 button:hover {
   background-color: #61d245;
 }
+
+h5,
+h4 {
+  text-align: center;
+  margin-top: 20px;
+  color: #cb4545;
+}

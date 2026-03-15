@@ -15,9 +15,6 @@ body {
   background-image: #d24545;
 }
 
-.navbar {
-}
-
 .nav-list {
   border-radius: 2px solid rgb(0, 0, 0);
   padding: 5px;
@@ -129,11 +126,11 @@ h2 {
   margin: 0%;
   padding: 0%;
   width: 100%;
+  background-color: inherit;
 }
 
 .social {
   bottom: 100px;
-  /* background: #ffffff; */
   padding: 40px;
   margin: 25px;
   gap: 10px;

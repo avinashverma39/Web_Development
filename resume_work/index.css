@@ -34,7 +34,7 @@ body {
 
 .nav-list a:hover {
   color: #f4b400;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 button a {
@@ -42,8 +42,9 @@ button a {
   color: rgb(0, 0, 0);
   font-weight: bold;
   background-color: inherit;
-  text-align: center;
+  
 }
+
 /* Left */
 
 .left {

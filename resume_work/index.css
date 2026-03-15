@@ -14,19 +14,27 @@ body {
   background-image: #d24545;
 }
 
-.navbar {
-  display: flex;
+.nav-list {
+  border-radius: 2px solid rgb(0, 0, 0);
+  /* background-color: rgb(37, 225, 24); */
+}
+
+.nav-list li {
   display: inline-block;
-  position: right;
-  align-items: center;
+  padding: 5px;
+  margin: 0;
 }
 
-.navebar ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
+.nav-list a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
 }
-
+.nav-list a:hover {
+  color: #f4b400;
+  transition: 0.3s;
+}
 /* Left */
 
 .left {

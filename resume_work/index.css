@@ -15,15 +15,21 @@ body {
 }
 
 .navbar {
+  display: flex;
   display: inline-block;
   position: right;
   align-items: center;
 }
-.nav {
+
+.navebar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
+
 /* Left */
+
 .left {
-  
   display: inline-block;
   background: inherit;
   padding: 50px;

@@ -16,7 +16,7 @@ body {
 
 .nav-list {
   border-radius: 2px solid rgb(0, 0, 0);
-  /* background-color: rgb(37, 225, 24); */
+  padding: 5px;
 }
 
 .nav-list li {
@@ -31,9 +31,18 @@ body {
   font-weight: bold;
   text-align: center;
 }
+
 .nav-list a:hover {
   color: #f4b400;
   transition: 0.3s;
+}
+
+button a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  background-color: inherit;
+  text-align: center;
 }
 /* Left */
 

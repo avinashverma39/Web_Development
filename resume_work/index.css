@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: "Poppins", sans-serif;
   background-image: #d24545;
@@ -22,10 +23,10 @@ body {
 }
 /* Left */
 .left {
-  flex: 1;
+  
+  display: inline-block;
   background: inherit;
   padding: 50px;
-  display: flex;
   flex-direction: column;
 }
 

@@ -58,31 +58,31 @@ button a {
   display: inline-block;
   background: inherit;
   padding: 50px;
-  flex-direction: column;
+  margin: 0;
+  padding-right: 0px;
+  /* flex-direction: column; */
 }
 
 h2 {
   text-align: left;
   width: 100%;
   font-size: 70px;
-}
-
-.left h1 span {
-  color: #f4b400;
+  font-weight: bold;
 }
 
 .work {
   background: #f4b400;
-  width: 360px;
+  max-width: 3570px;
+  color: rgb(32, 31, 31);
   display: inline-block;
   padding: 2px 10px;
   font-weight: bold;
 }
 
 .description {
-  max-width: 3700px;
-  color: #303030;
-  line-height: 2;
+  width: 570px;
+  color: #232323;
+  line-height: 3;
   font-weight: bold;
   text-spacing-trim: 20px;
 }
@@ -90,7 +90,7 @@ h2 {
 .btn {
   align-items: center;
   display: inline-block;
-  width: 200px;
+  width: 170px;
   border: none;
   font-weight: bold;
   cursor: pointer;
@@ -105,15 +105,14 @@ h2 {
 /* Right */
 
 .right {
-  position: relative;
+  /* position: relative; */
   box-shadow: 20px 25px 25px #45c279;
   box-sizing: border-box;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 .right img {
-  arrange-self: center;
   width: 100%;
   height: 100%;
   margin: 25px;

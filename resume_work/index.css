@@ -4,6 +4,7 @@
   box-sizing: border-box;
   background-color: rgb(162, 150, 177);
 }
+
 .container text-center {
   margin: 0;
   padding: 0;
@@ -14,9 +15,18 @@ body {
   background-image: #d24545;
 }
 
+.navbar {
+}
+
 .nav-list {
   border-radius: 2px solid rgb(0, 0, 0);
   padding: 5px;
+  align-content: right;
+}
+
+.nav-list {
+  justify-content: center;
+  align-items: right;
 }
 
 .nav-list li {
@@ -59,6 +69,7 @@ h2 {
   width: 100%;
   font-size: 70px;
 }
+
 .left h1 span {
   color: #f4b400;
 }
@@ -89,6 +100,7 @@ h2 {
   border-radius: 40px;
   transition: 0.4s;
 }
+
 .btn:hover {
   background-color: #01ff2f;
 }
@@ -102,6 +114,7 @@ h2 {
   display: flex;
   justify-content: center;
 }
+
 .right img {
   arrange-self: center;
   width: 100%;
@@ -125,10 +138,12 @@ h2 {
   margin: 25px;
   gap: 10px;
 }
+
 .social a {
   padding: 5px;
   text-decoration: none;
 }
+
 .social a img {
   background-color: rgb(255, 47, 0);
   border-radius: 50%;

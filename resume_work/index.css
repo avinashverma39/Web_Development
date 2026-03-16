@@ -1,13 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
-  background-color: rgb(162, 150, 177);
+  background-color: #827e7e;
+  /* height: 100%; */
 }
 
-.container text-center {
+.container {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 body {
@@ -18,16 +19,14 @@ body {
 .nav-list {
   border-radius: 2px solid rgb(0, 0, 0);
   padding: 5px;
-  align-content: right;
 }
 
-.nav-list {
-  justify-content: center;
-  align-items: right;
+.nav-list ul {
+  background-color: aqua;
 }
 
 .nav-list li {
-  display: inline-block;
+  /* display: inline-block; */
   padding: 5px;
   margin: 0;
 }
@@ -36,7 +35,7 @@ body {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-weight: bold;
-  text-align: center;
+  text-align: right;
 }
 
 .nav-list a:hover {
@@ -56,7 +55,7 @@ button a {
 
 /* .left {
   display: inline-block; */
-  /* background: inherit;
+/* background: inherit;
   padding: 50px;
   padding-right: 0px;
   flex-direction: column;

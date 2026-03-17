@@ -34,7 +34,7 @@ body {
   margin: 0.5rem;
   text-decoration: none;
   background-color: inherit;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
@@ -46,11 +46,15 @@ body {
   align-items: center;
 }
 
-.container .nav-list .btn {
+.container .btn {
+  padding: 10px;
+  margin: 5px;
+  background-color: inherit;
   justify-content: center;
   align-items: center;
-  width: 60px;
-  height: 40px;
+  background-color: #b4cc53;
+  border: 2px solid white;
+  border-radius: 20px;
 }
 
 /* .nav-list ul {

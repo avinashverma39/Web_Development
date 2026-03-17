@@ -57,6 +57,20 @@ body {
   border-radius: 20px;
 }
 
+.container .btn:hover{
+
+  background-color: rgb(110, 196, 110);
+  transition: 0.3s ease-in;
+
+}
+
+.container .nav-list a:hover{
+  color: #b32727;
+  transition: 0.5s ease-in;
+}
+
+
+
 /* .nav-list ul {
   background-color: aqua;
   align-items: center;

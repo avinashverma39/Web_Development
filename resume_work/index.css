@@ -10,8 +10,7 @@ body {
 }
 
 .container {
-  background-color: #d24545;
-  padding: 0.2rem;
+  padding-bottom: 0.4rem;
   margin: 0px;
   align-items: center;
 }
@@ -22,22 +21,26 @@ body {
 }
 
 .container .nav-list ul {
+  width: 100%;
   display: flex;
-  padding: 0.3rem;
+  padding-bottom: 0.3rem;
   margin: 0.2rem;
+  list-style-type: none;
+  background-color: aliceblue;
 }
 
 .container .nav-list li {
   padding: 0.4rem;
   margin: 0.5rem;
-  text-decoration:none;
-  
+  text-decoration: none;
+  background-color:inherit;
+  justify-content: space-evenly;
 }
 
 .container .nav-list a {
-  justify-content: space-evenly;
-  background-color: aqua;
+  padding: 0.3rem;
   text-decoration: none;
+  background-color:inherit;
 }
 
 /* .nav-list ul {

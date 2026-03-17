@@ -4,12 +4,6 @@
   background-color: #827e7e;
 }
 
-.container {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
 body {
   font-family: "Poppins", sans-serif;
   background-image: #d24545;
@@ -17,8 +11,33 @@ body {
 
 .container {
   background-color: #d24545;
-  padding: 0.1rem;
+  padding: 0.2rem;
+  margin: 0px;
   align-items: center;
+}
+
+.container .nav-list {
+  display: flex;
+  /* background-color: aqua; */
+}
+
+.container .nav-list ul {
+  display: flex;
+  padding: 0.3rem;
+  margin: 0.2rem;
+}
+
+.container .nav-list li {
+  padding: 0.4rem;
+  margin: 0.5rem;
+  text-decoration:none;
+  
+}
+
+.container .nav-list a {
+  justify-content: space-evenly;
+  background-color: aqua;
+  text-decoration: none;
 }
 
 /* .nav-list ul {

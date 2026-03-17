@@ -26,21 +26,31 @@ body {
   padding-bottom: 0.3rem;
   margin: 0.2rem;
   list-style-type: none;
-  background-color: aliceblue;
+  background-color: rgb(132, 146, 159);
 }
 
 .container .nav-list li {
   padding: 0.4rem;
   margin: 0.5rem;
   text-decoration: none;
-  background-color:inherit;
+  background-color: inherit;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .container .nav-list a {
   padding: 0.3rem;
   text-decoration: none;
-  background-color:inherit;
+  background-color: inherit;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .nav-list .btn {
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 40px;
 }
 
 /* .nav-list ul {

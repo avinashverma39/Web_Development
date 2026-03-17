@@ -15,7 +15,6 @@ body {
   width: 100%;
   padding-bottom: 0.4rem;
   display: flex;
-  
 }
 
 .nav-list {
@@ -39,7 +38,7 @@ body {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  color:aliceblue
+  color: aliceblue;
 }
 .btn {
   padding: 5px;
@@ -49,6 +48,15 @@ body {
   border-radius: 3px;
 }
 
+.container-leftt {
+  background: #262525;
+  width: 70%;
+}
+
+.right-item {
+  background: #d24545;
+  width: 30%;
+}
 /* .nav-list ul {
   background-color: aqua;
   align-items: center;

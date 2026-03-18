@@ -7,13 +7,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: #d24545;
 }
 
 .main-container {
   min-height: 100vh;
   width: 100%;
-  padding-bottom: 0.4rem;
   display: flex;
 }
 
@@ -34,24 +32,12 @@ body {
 .nav-list li a {
   padding: 0.3rem;
   text-decoration: none;
-  background-color: inherit;
-  justify-content: center;
-  align-items: center;
   text-transform: uppercase;
   color: aliceblue;
 }
-.btn {
-  padding: 5px;
-  margin: 2px;
-  background-color: inherit;
-  border: 2px solid rgb(12, 12, 12);
-  border-radius: 3px;
-}
 
-.container-left .right-item{
-
+.container-left .right-item {
   height: 100vh;
-
 }
 
 .container-left {
@@ -60,9 +46,14 @@ body {
 }
 
 .right-item {
-  background: #d24545;
+  background: #a11616;
   width: 30%;
 }
+
+.icons .fa-brands {
+  color: #bbb;
+}
+
 /* .nav-list ul {
   background-color: aqua;
   align-items: center;

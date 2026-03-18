@@ -48,7 +48,13 @@ body {
   border-radius: 3px;
 }
 
-.container-leftt {
+.container-left .right-item{
+
+  height: 100vh;
+
+}
+
+.container-left {
   background: #262525;
   width: 70%;
 }

@@ -157,7 +157,7 @@ button:nth-child(2) {
   bottom: -5px;
   transform: scaleX(0);
   transform-origin: bottom right;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 .nav-list .active::after {
   content: "";
@@ -169,19 +169,26 @@ button:nth-child(2) {
   bottom: -5px;
   transform: scaleX(0);
   transform-origin: bottom right;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
-.nav-list li a:hover::after{
+.nav-list li a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.nav-list .active::after{
+.nav-list .active::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
-
+.main-container .nav-list .btn1 {
+  border: 0.1rem solid rgb(33, 214, 237);
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+}
 /* .nav-list ul {
   background-color: aqua;
   align-items: center;

@@ -90,8 +90,15 @@ body {
 }
 
 .btn-container .btn2{
-  
+  border: .1rem solid rgb(33, 214, 237);
+  font-size: 1.1rem;
+  padding: .8rem 1.5rem;
+  border-radius: .5rem;
 
+}
+
+button:nth-child{
+  
 }
 /* .nav-list ul {
   background-color: aqua;

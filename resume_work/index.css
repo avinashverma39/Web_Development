@@ -180,6 +180,26 @@ button:nth-child(2) {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+.main-container .nav-list .btn1 a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-container .nav-list .btn1 {
+  background: transparent;
+  border: 0.1rem solid rgb(33, 214, 237);
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+}
+
+.main-container .nav-list .btn1:hover {
+  background: #5db9ee;
+  color: rgb(48, 142, 171);
+}
+
 
 h6 {
   color: #aaaddd;

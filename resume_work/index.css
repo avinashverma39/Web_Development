@@ -157,7 +157,7 @@ button:nth-child(2) {
   bottom: -5px;
   transform: scaleX(0);
   transform-origin: bottom right;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 .nav-list .active::after {
   content: "";
@@ -169,18 +169,27 @@ button:nth-child(2) {
   bottom: -5px;
   transform: scaleX(0);
   transform-origin: bottom right;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
-.nav-list li a:hover::after{
+.nav-list li a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.nav-list .active::after{
+.nav-list .active::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
+h6 {
+  color: #aaaddd;
+}
+span{
+  color: darkorange;
+}
+h3{
+  color: darkred;
+}
 
 /* .nav-list ul {
   background-color: aqua;

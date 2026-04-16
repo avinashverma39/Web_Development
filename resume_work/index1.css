@@ -156,7 +156,7 @@ p {
   }
 }
 
-@keyframes work {
+/* @keyframes work {
   from {
     background-color: #1bdf9e;
     width: 400px;
@@ -165,9 +165,9 @@ p {
   to {
     background-color: rgb(104, 191, 227);
   }
-}
+} */
 
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
   h2 {
     width: 100px;
     font-size: 10px;
@@ -191,8 +191,8 @@ p {
     font-size: 6px;
     left: 0px;
   }
-}
-
+} */
+/* 
 @media screen and (min-width: 200px) {
   .imgcard2 {
     width: 200px;
@@ -224,4 +224,4 @@ p {
       width: 100%;
     }
   }
-}
+} */

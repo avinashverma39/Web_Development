@@ -1,3 +1,9 @@
+ * {
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+ background-color: #262525;
+}
 h2 {
   color: rgb(0, 0, 0);
   background-color: #7e8180;
@@ -33,7 +39,7 @@ h2 {
 
 h3 {
   color: rgb(228, 227, 227);
-  background-color: #7e8180;
+  background-color:#262525;
   display: inline-block;
   height: 30px;
   width: 600px;
@@ -50,7 +56,7 @@ h3 {
 
 h4 {
   color: rgb(27, 29, 26);
-  background-color: #7e8180;
+  background-color: #262525;
   display: inline-block;
   height: 20px;
   width: 200px;
@@ -65,7 +71,7 @@ h4 {
 }
 
 * {
-  background-color: #7e8180;
+  background-color: #262525;
 }
 
 b {

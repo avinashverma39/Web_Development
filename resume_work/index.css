@@ -180,7 +180,7 @@ button:nth-child(2) {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.main-container .nav-list .btn1 a{
+.main-container .nav-list .btn1 a {
   text-decoration: none;
   color: #fff;
 }
@@ -200,18 +200,16 @@ button:nth-child(2) {
   color: rgb(48, 142, 171);
 }
 
-
 h6 {
   color: #aaaddd;
 }
-span{
+span {
   color: darkorange;
 }
-h3{
+h3 {
   color: darkred;
+  font-family: Sofia;
 }
-
-
 
 /* .nav-list ul {
   background-color: aqua;
